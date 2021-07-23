@@ -121,3 +121,31 @@
 
     // ! Resolve
     var quotient = 66 / 33;
+
+// ===========================================================================================
+
+    // * Increment a Number with JavaScript
+    // ? myVar should equal 88
+    // ? You should not use the assignment operator
+    // ? You should use the ++ operator
+    // ? You should not change code above the specified comment
+
+    // ! Resolve
+    var myVar = 87;
+
+    // Only change code below this line
+    myVar++;
+
+// ===========================================================================================
+
+    // * Decrement a Number with JavaScript
+    // ? myVar should equal 10
+    // ? myVar = myVar - 1; should be changed
+    // ? You should use the -- operator on myVar
+    // ? You should not change code above the specified comment
+
+    // ! Resolve
+    var myVar = 11;
+
+    // Only change code below this line
+    myVar--;
