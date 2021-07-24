@@ -1,9 +1,10 @@
 // TODO Macam macam Komentar
     //! Resolve
-    // This is an in-line comment.
+    // Komen satu baris
 
-    /* This is a
-    multi-line comment */
+    /* Komen
+    banyak
+    baris */
 
 // ============================================================================================
 
@@ -149,3 +150,24 @@
 
     // Only change code below this line
     myVar--;
+
+// ===========================================================================================
+
+    // * Create Decimal Numbers with JavaScript
+    // ? myDecimal should be a number
+    // ? myDecimal should have a decimal point
+
+    // ! Resolve
+    var ourDecimal = 5.7;
+
+    // Only change code below this line
+    var myDecimal = 2.7;
+
+// ===========================================================================================
+
+    // * Multiply Two Decimals with JavaScript
+    // ? The variable product should equal 5.0
+    // ? You should use the * operator
+
+    // ! Resolve
+    var product = 2.0 * 2.5;
