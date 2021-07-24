@@ -171,3 +171,86 @@
 
     // ! Resolve
     var product = 2.0 * 2.5;
+
+// ===========================================================================================
+
+    // * Divide One Decimal by Another with JavaScript
+    // ? The variable quotient should equal 2.2
+    // ? You should use the / operator to divide 4.4 by 2
+    // ? The quotient variable should only be assigned once
+
+    // ! Resolve
+    var quotient = 4.4 / 2.0;
+
+// ===========================================================================================
+
+    // * Finding a Remainder in JavaScript
+    // todo Set remainder equal to the remainder of 11 divided by 3 using the remainder (%) operator
+    // ? The variable remainder should be initialized
+    // ? The value of remainder should be 2
+    // ? You should use the % operator
+
+    // ! Resolve
+    var remainder = 11 % 3;
+
+// ===========================================================================================
+
+    // * Compound Assignment With Augmented Addition
+    // todo Convert the assignments for a, b, and c to use the += operator
+    // ? a should equal 15
+    // ? b should equal 26
+    // ? c should equal 19
+    // ? You should use the += operator for each variable
+    // ? You should not modify the code above the specified comment
+
+    // ! Resolve
+    var a = 3;
+    var b = 17;
+    var c = 12;
+
+    // Only change code below this line
+    a += 12;
+    b += 9;
+    c += 7;
+
+// ===========================================================================================
+
+    // * Compound Assignment With Augmented Subtraction
+    // todo Convert the assignments for a, b, and c to use the -= operator
+    // ? a should equal 5
+    // ? b should equal -6
+    // ? c should equal 2
+    // ? You should use the -= operator for each variable
+    // ? You should not modify the code above the specified comment
+
+    // ! Resolve
+    var a = 11;
+    var b = 9;
+    var c = 3;
+
+    // Only change code below this line
+    a -= 6;
+    b -= 15;
+    c -= 1;
+
+// ===========================================================================================
+
+    // * Compound Assignment With Augmented Multiplication
+    // todo Convert the assignments for a, b, and c to use the *= operator
+    // ? a should equal 25
+    // ? b should equal 36
+    // ? c should equal 46
+    // ? You should use the *= operator for each variable
+    // ? You should not modify the code above the specified comment
+
+    // ! Resolve
+    var a = 5;
+    var b = 12;
+    var c = 4.6;
+
+    // Only change code below this line
+    a *= 5;
+    b *= 3;
+    c *= 10;
+
+// ===========================================================================================
