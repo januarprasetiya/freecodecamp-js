@@ -254,3 +254,109 @@
     c *= 10;
 
 // ===========================================================================================
+
+    // * Compound Assignment With Augmented DivisionPassed
+    // todo Convert the assignments for a, b, and c to use the /= operator.
+    // ? a should equal 4
+    // ? b should equal 27
+    // ? c should equal 3
+    // ? You should use the /= operator for each variable
+    // ? You should not modify the code above the specified comment
+
+    // ! Resolve
+    var a = 48;
+    var b = 108;
+    var c = 33;
+
+    // Only change code below this line
+    a /= 12;
+    b /= 4;
+    c /= 11;
+
+// ===========================================================================================
+
+    // * Declare String Variables
+    // todo Create two new string variables: myFirstName and myLastName and assign them the values of your first and last name, respectively.
+    // ? myFirstName should be a string with at least one character in it
+    // ? myLastName should be a string with at least one character in it
+
+    // ! Resolve
+    var myFirstName = "januar";
+    var myLastName = "prasetiya";
+
+// ===========================================================================================
+
+    // * Escaping Literal Quotes in Strings
+    // todo Use backslashes to assign a string to the myStr variable so that if you were to print it to the console, you would see:
+    // ? You should use two double quotes (") and four escaped double quotes (\")
+    // ? Variable myStr should contain the string: I am a "double quoted" string inside "double quotes"
+
+    // ! Resolve
+    var myStr = "I am a \"double quoted\" string inside \"double quotes\".";
+
+// ===========================================================================================
+
+    // * Quoting Strings with Single Quotes
+    // todo Change the provided string to a string with single quotes at the beginning and end and no escape characters. Right now, the <a> tag in the string uses double quotes everywhere. You will need to change the outer quotes to single quotes so you can remove the escape characters.
+    // ? You should remove all the backslashes (\)
+    // ? You should have two single quotes ' and four double quotes "
+
+    // ! Resolve
+    var myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
+
+// ===========================================================================================
+
+    // * Escape Sequences in Strings
+
+    // ! Resolve
+    var myStr = "FirstLine\n\t\\SecondLine\nThirdLine";
+
+// ===========================================================================================
+
+    // * Concatenating Strings with Plus Operator
+    // todo Build myStr from the strings This is the start. and This is the end. using the + operator
+    // ? myStr should have a value of the string "This is the start. This is the end".
+    // ? You should use the + operator to build myStr
+    // ? myStr should be created using the var keyword
+    // ? You should assign the result to the myStr variable
+
+    // ! Resolve
+    var myStr = "This is the start. " + "This is the end.";
+
+// ===========================================================================================
+
+    // * Concatenating Strings with the Plus Equals Operator
+    // todo Build myStr over several lines by concatenating these two strings: This is the first sentence. and This is the second sentence. using the += operator. Use the += operator similar to how it is shown in the example. Start by assigning the first string to myStr, then add on the second string.
+    // ? myStr should have a value of the string "This is the first sentence. This is the second sentence"
+    // ? You should use the += operator to build myStr
+
+    // ! Resolve
+    var myStr = "This is the first sentence. ";
+    myStr += "This is the second sentence.";
+
+// ===========================================================================================
+
+    // * Constructing Strings with Variables
+    // todo Set myName to a string equal to your name and build myStr with myName between the strings My name is and and I am well!
+    // ? myName should be set to a string at least 3 characters long
+    // ? You should use two + operators to build myStr with myName inside it
+
+    // ! Resolve
+    var myName = "januarprasetiya";
+    var myStr = "My name is " + myName + " and I am well!";
+
+// ===========================================================================================
+
+    // * Appending Variables to Strings
+    // todo Set someAdjective to a string of at least 3 characters and append it to myStr using the += operator
+    // ? someAdjective should be set to a string at least 3 characters long
+    // ? You should append someAdjective to myStr using the += operator
+
+    // ! Resolve
+    var someAdjective = "powerful";
+    var myStr = "Learning to code is ";
+    myStr += someAdjective;
+
+// ===========================================================================================
+
+    // *
